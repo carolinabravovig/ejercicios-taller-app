@@ -1,0 +1,70 @@
+body {
+    
+    margin-left: 33%;
+     margin-right: 33%;
+     margin-bottom: 0%;
+     border-radius: 20%;
+        
+ }
+ 
+ main {
+    display: block;
+   
+    text-align: center;
+    padding-top: 5px;
+    background-color: rgb(144, 231, 198);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+ 
+ }
+ .artistas {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    background-color: rgb(144, 231, 198);
+    grid-gap: 10px;
+    padding-left: 6%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+ }
+ 
+ article {
+    background: rgb(111, 219, 165);
+     padding-top: 5px;
+     height: 135px;
+     width: 135px;
+     border-radius: 20px;
+    
+ 
+ }
+ 
+ .img-cantante {
+    border-style: solid;
+    width: 93px;
+    height: 93px;
+    border-radius: 50px;
+    grid-gap: 50px;
+    grid-column: 50px;
+    
+ }
+ p{
+ font-style: normal;
+ font-weight: normal;
+ font-size: 13px;
+ line-height: 15px;
+  color: white;
+ }
+ h1{
+  
+  font-size: 48px;
+ line-height: 56px;
+ 
+ 
+ 
+ }
+ 
