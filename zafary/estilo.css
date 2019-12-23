@@ -1,0 +1,81 @@
+/* {
+    box-sizing: border-box;
+  }
+  
+  /*body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }*/
+  body{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-165px;
+    margin-top: -210px;
+    width: 400px;
+    
+    
+    }
+  
+  main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .caja-login {
+    text-align: center;
+    border: solid rgb(198, 240, 227);
+    background: rgb(222, 243, 237);
+    border-radius: 20px;
+    width: 300px;
+  }
+  
+  .caja-login h1 {
+  
+  }
+  
+  .formulario-login {
+      
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    border-radius: 40px;
+    padding-bottom: 5px;
+    width: 260px;
+  }
+  
+  .formulario-login small {
+    text-align: center;
+  }
+  
+  .formulario-login input {
+    height: 34px;
+    border-radius: 40px;
+    height: 30px;
+    margin-left: 40px;
+  }
+  
+  .formulario-login button {
+    height: 34px;
+  }
+
+  .formulario-login small {
+    color: gray;
+  }
+  
+  /* Color de texto de ayuda */
+ .boton {
+    cursor: pointer;
+    color: white;
+
+    opacity: 1;
+    border-radius: 40px;
+    background: rgb(148, 235, 209);
+  }
