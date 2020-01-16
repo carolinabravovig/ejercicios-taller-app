@@ -1,0 +1,74 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.titulo{
+
+     text-align: center;
+     background-color: rgb(18, 19, 19);
+     height: 55px;
+     color: white;
+     font-size: 30px;
+     vertical-align: 10px;
+  
+}
+.menu_boton:hover{
+   
+  background-color:rgb(137, 183, 197);
+}
+
+.menu_boton{
+  margin: 1px;
+  text-align: center;
+  cursor: pointer;
+  height: 60px;
+  border-bottom:solid 1px rgba(9, 198, 204, 0.466);
+  
+  line-height: 56px
+  
+}
+
+.seccion{
+    
+    display: grid;
+    grid-template-columns:15%  85%;
+    height: 800px;
+      
+  
+    
+ }
+
+ 
+ .menu{
+    
+    background-color: rgb(146, 224, 255);
+    height: 890px;
+ }
+ .paginaurl{
+     width: 99%;
+     height: 99%;
+
+ }
+ .titulo2{
+  background-color: rgba(124, 213, 248,0.5);
+
+  margin: 1px;
+  text-align: center;
+  font-size: 35px; 
+  height: 60px;
+  line-height: 56px
+  
+}
+
+
+    
+      
+      
+
+
+
+
+
+
