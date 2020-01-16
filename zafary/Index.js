@@ -10,10 +10,12 @@ function validacion(){
     password.value='';
 
 if (direc ==='ejemplo@gmail.com' && pass ==='123456'){
- 
-        console.log('Iniciando Sesion')
+    document.getElementById('label').innerHTML = 'Iniciando sesión…';
+    window.location.href = './Zafary/index.html';
+       
 }else{
     console.log('Email y/o contraseña incorrecta')
+    document.getElementById('label').innerHTML = 'Email y/o contraseña incorrectos';
 }
 
 }
